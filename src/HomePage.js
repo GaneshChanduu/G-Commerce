@@ -20,6 +20,17 @@ function HomePage() {
               Product List
             </Link>
           </div>
+          <Link
+            to="/"
+            className="back-button"
+            style={{
+              color: "white",
+              textDecoration: "none",
+              borderRadius: "10px",
+            }}
+          >
+            Go to Login Page
+          </Link>
         </div>
       </div>
     </div>
